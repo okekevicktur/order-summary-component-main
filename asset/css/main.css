@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700;900&display=swap');
+
+*,
+*::after,
+*::before
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    /* max-width: 100vh; */
+    font-family: 'Red Hat Display', sans-serif;
+    background:hsl(225, 100%, 94%);
+}
+
+.container-fluid{
+    display: block;
+    margin: 0 auto;
+    padding: 50px 15px 5px 15px;
+
+    max-width: 375px;
+    padding-top: 50px;
+    border-radius: 20px;
+}
+
+.hero-img{
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.container-fluid .card{
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    /* border-top-left-radius: 20px; */
+    border-radius: 20px;
+    /* background: red; */
+    background: hsl(225, 100%, 98%);
+
+
+}
+.container-fluid .card .title{
+    margin: 20px 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+    /* background: blue; */
+}
+.container-fluid .card .content{
+    text-align: center;
+    font-weight: 500;
+    padding: 0 40px;
+    /* max-width: 80%; */
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color:  hsl(224, 23%, 55%);
+    margin-bottom: 25px;
+}
+.container-fluid .card .sub-plan{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    background: hsl(225, 100%, 94%);
+}
+.sub-details{
+    margin-right: 30px;
+    /* color: hsl(245, 75%, 52%); */
+}
+.sub-details .sub-annual{
+    font-weight: 800;
+}
+.sub-details .sub-price{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.sub-plan .change-plan{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.change-plan:hover{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+.card .btn{
+    
+    padding: 15px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    display: block;
+    text-decoration: none;
+    color: hsl(225, 100%, 98%);
+    text-align: center;
+    margin: 25px 30px;
+    border-radius: 10px;
+    background:  hsl(245, 75%, 52%);
+    box-shadow: -1px 13px 17px 0px  rgb(0, 0, 0, .2);
+}
+.cancel-order{
+    color: hsl(224, 23%, 55%);
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 900;
+     padding-top: 10px ;
+   padding-bottom: 30px;
+   
+   /* background: green; */
+}
+.attribution { font-size: 12px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and ( min-width: 1200px){
+    .container-fluid{
+       width: 35%;
+       margin: 0 auto;
+    }
+}
