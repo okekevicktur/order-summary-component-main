@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" lang="en">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href=".asset/images/favicon-32x32.png">
@@ -12,13 +12,13 @@
   
 </head>
 <body>
-  <div class="container-fluid">
-      <div class="card">
-        <div class="hero">
+  <main role="main" class="container-fluid">
+      <section role="contentinfo" class="card">
+        <div  class="hero">
           <img src="./asset/images/illustration-hero.svg" alt="" class="hero-img">
         </div>
-        <p class="title">Order Summary</p>
-        <p class="content">You can now listen to millions of songs, audiobooks, and podcasts on any 
+        <h1 role="heading" class="title">Order Summary</h1>
+        <p role="contentinfo" class="content">You can now listen to millions of songs, audiobooks, and podcasts on any 
           device anywhere you like!</p>
         <div class="sub-plan">
           <img src="./asset/images/icon-music.svg" alt="" class="img-icon">
@@ -31,14 +31,14 @@
         
         <a href="#" class="btn">Proceed to Payment</a>
         <span class="cancel-order">Cancel Order </span>
-      </div>
-  </div>
+      </section>
+  </main>
 
   <!-- -->
   
-  <div class="attribution">
+  <footer role="contentinfo" class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Victor Okeke</a>.
-  </div>
+  </footer>
 </body>
 </html>
